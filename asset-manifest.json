@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.a5a6114a.css",
-    "main.js": "/My-Portfolio/static/js/main.0262397a.js",
+    "main.css": "/My-Portfolio/static/css/main.f6849ed3.css",
+    "main.js": "/My-Portfolio/static/js/main.0e735465.js",
+    "static/media/businesswoman.png": "/My-Portfolio/static/media/businesswoman.06366058858fbec33813.png",
+    "static/media/project.png": "/My-Portfolio/static/media/project.63844f4e835ddb4914df.png",
+    "static/media/Photo.jpg": "/My-Portfolio/static/media/Photo.bf0dddaded89c1775f5c.jpg",
+    "static/media/webstudio.png": "/My-Portfolio/static/media/webstudio.3610fd17d6caf5a60b4c.png",
+    "static/media/phonebook.png": "/My-Portfolio/static/media/phonebook.517498628d00594a00c6.png",
+    "static/media/mimino.png": "/My-Portfolio/static/media/mimino.ef91e6145f9eb5bf221c.png",
+    "static/media/yourpet.png": "/My-Portfolio/static/media/yourpet.9ebc82f0a95d4b48109e.png",
+    "static/media/serchphoto.png": "/My-Portfolio/static/media/serchphoto.4301fc813d0704701bcd.png",
+    "static/media/movie.png": "/My-Portfolio/static/media/movie.61ecf39621731e108f48.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.a5a6114a.css.map": "/My-Portfolio/static/css/main.a5a6114a.css.map",
-    "main.0262397a.js.map": "/My-Portfolio/static/js/main.0262397a.js.map"
+    "main.f6849ed3.css.map": "/My-Portfolio/static/css/main.f6849ed3.css.map",
+    "main.0e735465.js.map": "/My-Portfolio/static/js/main.0e735465.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5a6114a.css",
-    "static/js/main.0262397a.js"
+    "static/css/main.f6849ed3.css",
+    "static/js/main.0e735465.js"
   ]
 }
