@@ -6,12 +6,14 @@ function GitHubButton(props) {
       <div className="bot_btn">
         <a
           href={props.href}
+          rel="noopener noreferrer"
           className="bot_git_btn"
           style={{
             backgroundColor: props.backgroundColor,
             boxShadow: props.shadow,
           }}
           target="_blank"
+          
         >
           ⭐ Star Me on Github
         </a>
