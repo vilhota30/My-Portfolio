@@ -49,6 +49,9 @@
     .proj_left p {
       color: #9f9f9f;
     }
+    .proj_container_section {
+      display: flex;
+    }
 };
   
   @media screen and (max-width: 920px) {
