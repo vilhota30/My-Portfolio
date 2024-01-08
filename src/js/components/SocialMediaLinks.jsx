@@ -11,6 +11,7 @@ function SocialMediaProfileLinks(props) {
                 href={data.where_to_go_link}
                 key={index}
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ margin: '15px', color: 'darkblue', }}
               >
                 <data.icon_class />
