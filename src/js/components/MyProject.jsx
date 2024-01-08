@@ -6,7 +6,7 @@ import GitHubButton from "./ButtonCitHub";
 function AboutMyProject () {
    return (
     <>
-      <div className="proj_container_section" style={{marginBottom: '30px'}}>
+      <div className="proj_container_section" style={{marginBottom: '30px', display: 'flex'}}>
         <div className="proj_left" style={{marginRight: '50px'}}>
           <h3>Projects & Experiences</h3>
           <p style={{display: 'flex', width: '500px', fontSize: '20px', fontWeight: '600', color: 'black'}}>
