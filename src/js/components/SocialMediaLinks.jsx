@@ -12,7 +12,7 @@ function SocialMediaProfileLinks(props) {
                 key={index}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ margin: '15px', color: 'darkblue', }}
+                style={{ margin: '15px', color: 'lightgoldenrodyellow', borderRadius: '50%', border: '2px solid Brown' }}
               >
                 <data.icon_class />
               </a>

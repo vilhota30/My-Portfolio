@@ -1,0 +1,117 @@
+.contact_page_section {
+    padding: 30px 40px;
+    background: burlywood;
+};
+  .contact_section {
+    width: 90%;
+    flex-direction: column;
+    background: #fff;
+  
+    border-radius: 10px;
+};
+  .contact_page_section,
+  .contact_section,
+  .contact_container,
+  .form_container_right,
+  .form_container_left,
+  .user_form,
+  .user_send_msg_button,
+  .submit_msg,
+  .user_message_form h3,
+  .user_message_form p,
+  .contact_data_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+};
+  
+  .contact_container,
+  .contact_page_section,
+  .user_form,
+  .user_message_form,
+  .your_info_data {
+    width: 100%;
+};
+  
+  .form_container_right {
+    width: 100%;
+};
+  
+  .user_message_form {
+    padding: 30px 0;
+};
+  .username_val,
+  .user_msg,
+  .name_val {
+    display: flex;
+    flex-direction: column;
+    margin: 9px;
+};
+  input {
+    height: 45px;
+    line-height: 55px;
+};
+  
+  .submit_msg {
+    height: 45px;
+    width: 95%;
+    gap: 9px;
+    background: #b246f5;
+    border: 1px solid #9a24b9;
+    color: #fff;
+    margin: 15px 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: ease-in-out 0.5s;
+    border-radius: 3px;
+};
+  .submit_msg:active {
+    transform: scale(0.9);
+};
+  input,
+  textarea {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px #ffffff9e;
+    outline: none;
+    padding-left: 20px;
+};
+  textarea {
+    padding-top: 12px;
+};
+  label {
+    font-size: 15px;
+    font-weight: 600;
+};
+  label,
+  input {
+    margin-bottom: 9px;
+};
+  .user_message_form span {
+    color: #9a24b9;
+    margin-left: 5px;
+};
+  .user_message_form span:hover {
+    color: #e32eff;
+};
+  
+  .user_message_form h3 {
+    font-size: 39px;
+};
+  .user_message_form p {
+    font-size: 18px;
+};
+  .contact_data_class {
+    gap: 10px;
+    margin: 15px 0 21px 0;
+    font-size: 18px;
+    font-family: inherit;
+    padding: 10px 21px;
+};
+  .form_container_left {
+    width: 90%;
+};
+  .contact_container {
+    background: #fff;
+};

@@ -3,6 +3,7 @@ import '../../css/pages/Hero.css';
 import SocialMediaProfileLinks from "js/components/SocialMediaLinks";
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
 import photo from '../images/Photo.jpg';
+import mountains from '../images/mountains.jpg';
 
 function HeroPage () {
 
@@ -16,7 +17,7 @@ function HeroPage () {
  return (
    
     <>
-       <div className="profile-container" id="home_page" style={{marginBottom: '30px'}}>
+       <div className="profile-container" id="home_page" style={{marginBottom: '30px', backgroundImage: `url(${mountains})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "bottom", height: '600px' }}>
         <div className="profile-parent">
           <div className="profile-details" style={{marginRight: '60px', marginLeft: '40px'}}>
             <div className="profile-details-name">
@@ -60,7 +61,7 @@ function HeroPage () {
             {/* <div style={{backgroundImage: `url(${photo})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "8px", backgroundSize: "cover", backgroundPosition: "center"}}></div> */}
           {/* </div> */}
           </div>
-          <div style={{backgroundImage: `url(${photo})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "8px", backgroundSize: "cover", backgroundPosition: "center", marginLeft: '20px', marginRight: '50px', marginTop: '20px', marginBottom: '20px',}}></div>
+          <div style={{backgroundImage: `url(${photo})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "50%", backgroundSize: "cover", backgroundPosition: "center", marginLeft: '20px', marginRight: '50px', marginTop: '20px', marginBottom: '20px',}}></div>
         </div>
        </div> 
     </>

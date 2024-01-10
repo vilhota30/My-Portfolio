@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import AboutMyProject from 'js/components/MyProject';
 import myProjectsData from 'js/data/ProjectsData';
+import pencils from '../images/pencils.jpg';
 
 const MyProjects = () => {
   const [showAllCards, setShowAllCards] = useState(false);
@@ -12,8 +13,8 @@ const MyProjects = () => {
         <div className="proj_component">
           <AboutMyProject />
         </div>
-        <div style={{backgroundColor: 'burlywood', paddingTop: '20px'}}>
-        <h2 style={{ display: 'flex', justifyContent: 'center', fontSize: '20px'}}>My projects</h2>
+        <div style={{backgroundColor: 'burlywood', paddingTop: '20px', backgroundImage: `url(${pencils})`, backgroundRepeat: "no-repeat", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "center",}}>
+        <h2 style={{ display: 'flex', justifyContent: 'center', color: 'moccasin', fontSize: '20px'}}>My projects</h2>
         <div className="project_work_page" style={{display: 'flex', flexWrap: 'wrap', gap: '30px', padding: '30px 90px',}}>
           {visibleCards.map((e, index) => (
             <div

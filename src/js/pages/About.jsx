@@ -9,7 +9,7 @@ function AboutMe () {
         <section className="about_me" id="about_myself">
            <div className="about_me_container" style={{display: 'flex', backgroundColor: 'burlywood', marginBottom: '30px'}} >
                <div className="my_img">
-                 <img id="img" src={aboutMeImg} alt="profile_image" style={{backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "8px", backgroundSize: "cover", backgroundPosition: "center", marginRight: '50px', marginTop: '40px', marginLeft: '40px',}} />
+                 <img id="img" src={aboutMeImg} alt="profile_image" style={{backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", borderRadius: "8px", border: "1px solid black", backgroundSize: "cover", backgroundPosition: "center", marginRight: '50px', marginTop: '40px', marginLeft: '40px',}} />
                </div>
         <div style={{display: 'flex', flexDirection: 'column'}}>      
         <div className="my_info">
