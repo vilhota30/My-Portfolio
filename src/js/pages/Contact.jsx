@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
 
 return (
     <>
-    <section className="contact_page_section" id="contact_page">
+    <section className="contact_page_section" id="contact_page" style={{padding: '30px 40px', backgroundColor: 'burlywood'}}>
       <div className="contact_section">
         <div className="contact_container" style={{display: 'flex', justifyContent: 'center'}}>
           <div className="form_container_left" style={{padding: '15px', backgroundColor: 'darksalmon'}}>

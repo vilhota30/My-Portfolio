@@ -5,10 +5,10 @@ import FooterInfoDetails from "js/components/FooterInfo";
 function Footer() {
     return (
       <div>
-        <div className="footer_section">
+        <div className="footer_section" style={{padding: '15px 10px', backgroundColor: '#1c447e'}}>
           <FooterInfoDetails />
           <div className="line"></div>
-          <h2>Made with ❤️ by Vilhota Alina</h2>
+          <h2 style={{display: 'flex', justifyContent: 'center'}}>Made with ❤️ by Vilhota Alina</h2>
         </div>
       </div>
     );
