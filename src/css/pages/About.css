@@ -1,6 +1,7 @@
 .about_me {
+    padding: 20px 40px;
     width: 100%;
-    background: #fffafa;
+    background: burlywood;
 };
   .about_me,
   .about_me_container,

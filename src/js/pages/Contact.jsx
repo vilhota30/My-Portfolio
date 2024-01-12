@@ -87,10 +87,10 @@ const handleSubmit = async (e) => {
 
 return (
     <>
-    <section className="contact_page_section" id="contact_page" style={{padding: '30px 40px', backgroundColor: 'burlywood'}}>
+    <section className="contact_page_section" id="contact_page" style={{padding: '50px 40px', backgroundColor: 'burlywood'}}>
       <div className="contact_section">
-        <div className="contact_container" style={{display: 'flex', justifyContent: 'center'}}>
-          <div className="form_container_left" style={{padding: '15px', backgroundColor: 'darksalmon'}}>
+        <div className="contact_container" style={{display: 'flex', justifyContent: 'center', borderRadius: '10px', boxShadow: 'rgba(0, 0, 3, 0.25) 0px 25px 50px -12px'}}>
+          <div className="form_container_left" style={{padding: '15px', backgroundColor: 'darksalmon', borderRadius: '10px'}}>
             <div className="user_form">
               <ToastContainer />
               <form
@@ -181,7 +181,7 @@ return (
             </div>
           </div>
           <img
-            style={{display: 'flex', backgroundRepeat: "no-repeat", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "center", width: '400px', height: '400px', }}
+            style={{display: 'flex', backgroundRepeat: "no-repeat", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "center", width: '400px', height: '400px', borderRadius: '10px'}}
             src={teamproject}
             className="form_container_right"
             alt="contact images"

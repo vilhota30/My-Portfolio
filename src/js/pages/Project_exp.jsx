@@ -9,7 +9,7 @@ const MyProjects = () => {
   const visibleCards = myProjectsData.slice(0, 6);
   return (
     <div>
-      <div className="work_page" id="my-work" style={{backgroundColor: 'chocolate'}} >
+      <div className="work_page" id="my-work" style={{backgroundColor: 'chocolate', padding: '20px 40px'}} >
         <div className="proj_component">
           <AboutMyProject />
         </div>
@@ -22,13 +22,13 @@ const MyProjects = () => {
               key={index}
               data-aos="fade-up"
               data-aos-duration="2000"
-              style={{border: '1px solid firebrick', borderRadius: '5px', backgroundColor: 'brown', padding: '8px', }}
+              style={{border: '1px solid firebrick', borderRadius: '5px', backgroundColor: 'brown', padding: '8px', boxShadow: 'rgba( 1, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px'}}
             >
               <div className="pcontainer">
                 <img src={e.project_image} alt="project Images" style={{display: 'flex', width: '250px', height: '200px', backgroundSize: 'cover', backgroundPosition: 'center',}}/>
                 <div className="proj_header">
-                  <h3>{e.project_name}</h3>
-                  <h4>{e.proj_creation_date}</h4>
+                  <h3 style={{color: 'orange'}}>{e.project_name}</h3>
+                  <h4 style={{color: 'cornsilk'}}>{e.proj_creation_date}</h4>
                 </div>
                 <div className="proj_descriptions">
                   <p>{e.proj_description}</p>
@@ -39,14 +39,14 @@ const MyProjects = () => {
                     target={e.proj_code_like !== '#' ? '_blank' : ''}
                     rel="noreferrer"
                   >
-                    <button style={{backgroundColor: 'lightcoral', color: 'brown', border: '2px solid coral', borderRadius: '6px', fontSize: '18px', fontWeight: '600', marginRight: '8px'}} className="proj_code">Project Code</button>
+                    <button style={{backgroundColor: 'lightcoral', color: 'darkred', border: '2px solid coral', borderRadius: '6px', fontSize: '18px', fontWeight: '700', marginRight: '8px'}} className="proj_code">Project Code</button>
                   </a>
                   <a
                     href={e.proj_live_link}
                     target={e.proj_live_link !== '#' ? '_blank' : ''}
                     rel="noreferrer"
                   >
-                    <button style={{backgroundColor: 'lightcoral', color: 'brown', border: '2px solid coral', borderRadius: '6px', fontSize: '18px', fontWeight: '600'}} className="proj_live">Live Project</button>
+                    <button style={{backgroundColor: 'lightcoral', color: 'darkred', border: '2px solid coral', borderRadius: '6px', fontSize: '18px', fontWeight: '700'}} className="proj_live">Live Project</button>
                   </a>
                 </div>
               </div>

@@ -16,6 +16,7 @@
     border: 2px solid rgb(225, 145, 65);
     background-color:rgb(225, 145, 65);
     font-size: 12px;
+    margin-right: 20px;
   }
   .profile-details-name p {
     font-size: 54px;
@@ -34,16 +35,15 @@
   }
   
   .highlighted-btn-profile {
-    color: var(--white);
     font-size: 12px;
     background-color: #0e55d8;
-  };
-  
-  .highlighted-btn-profile:hover {
-    border: 2px solid orange;
-    background-color: rgb(225, 145, 65);
   }
 
+  .highlighted-btn-profile:hover {
+    border: 2px solid orangered;
+    background-color: rgb(215, 96, 5);
+  }
+  
 .profile-container,
 .profile-parent {
   display: flex;

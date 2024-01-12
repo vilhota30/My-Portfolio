@@ -46,9 +46,7 @@ const NavBar = () => {
                 >
                   <span
                     style={{
-                      height: '39px',
-                      alignItems: 'center',
-                      paddingBottom: '1px',
+                      padding: '5px'
                     }}
                   >
                     <data.nav__icon />

@@ -5,8 +5,8 @@ import GitHubButton from './ButtonCitHub';
 import aboutMeInfo from 'js/data/AboutMeData';
 import myNavBarData from 'js/data/NavBarData';
 import SocialMediaProfileLinks from './SocialMediaLinks';
-import { BiFastForward } from "react-icons/bi";
-import { BiCaretRightCircle } from "react-icons/bi";
+import { FcRedo } from "react-icons/fc";
+import { FcExport } from "react-icons/fc";
 
 
 const FooterInfoDetails = () => {
@@ -48,7 +48,7 @@ const FooterInfoDetails = () => {
                 return (
                   <>
                     <div style={{display: 'flex'}}>
-                     <BiFastForward />
+                    <FcExport />
                     <HashLink key={index} to={data.nav_link} style={{display: 'flex', textDecoration: 'none', height: '30px', alignItems: 'center'}}>
                       {/* <i className="fa-solid fa-angles-right" style={{color: 'darkblue', }}></i> */}
                       <p style={{color: 'coral', fontWeight: '600', fontSize: '18px'}}> {data.navbar_name}</p>
@@ -74,7 +74,7 @@ const FooterInfoDetails = () => {
                             className={e.icon_class}
                             style={{ color: e.ic_color }}
                           ></i> */}
-                          <BiCaretRightCircle />
+                          <FcRedo />
                           <p style={{fontWeight: '600', fontSize: '18px', color: 'sandybrown'}}>{e.data_value}</p>
                         </div>
                       );
