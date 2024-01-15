@@ -1,4 +1,6 @@
 .bot_btn {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
   }
   .bot_git_btn {

@@ -17,9 +17,12 @@
     rgba(0, 0, 0, 0.09) 0px 16px 8px, 
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+.container_image {
+    display: flex;
+    justify-content: center;
+}
 .text_group {
     display: flex;
-    margin-left: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -39,4 +42,42 @@
     display: flex;
     padding: 20px;
     justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .container_education {
+        width: 800px;
+    }
+    .text_group {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container_education {
+        display: block;
+        width: 400px;
+    }
+    
+}
+
+@media screen and(max-width: 800px) {
+    .container_education {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .container_education {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .container_education {
+        width: 280px;
+    }
 }

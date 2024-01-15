@@ -158,6 +158,10 @@
       width: 100%;
       padding: 20px 0 25px 0;
     }
+    .project_group {
+      display: flex;
+      justify-content: center;
+    }
 }
   
   @media screen and (max-width: 370px) {
@@ -170,9 +174,9 @@
 }
   
   @media screen and (max-width: 350px) {
-    .proj_btns {
+     .proj_btns {
       flex-direction: column;
-    }
+    } 
     .proj_code,
     .proj_live {
       width: 250px;

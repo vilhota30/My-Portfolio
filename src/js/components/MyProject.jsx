@@ -6,7 +6,7 @@ import GitHubButton from "./ButtonCitHub";
 function AboutMyProject () {
    return (
     <>
-      <div className="proj_container_section" style={{ display: 'flex', margin: 'auto'}}>
+      <div className="proj_container_section">
         <div className="proj_left" style={{marginRight: '50px'}}>
           <h3>Projects & Experiences</h3>
           <p style={{display: 'flex', width: '500px', fontSize: '20px', fontWeight: '600', color: 'black'}}>
@@ -24,7 +24,7 @@ function AboutMyProject () {
           />
         </div>
         <div className="proj_right">
-          <img src={myproject} alt="Project Img"  style={{backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "8px", backgroundSize: "cover", backgroundPosition: "center"}} />
+          <img src={myproject} alt="Project Img"  style={{backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "100%", border: "1px solid black", borderRadius: "8px", backgroundSize: "cover", backgroundPosition: "center"}} />
         </div>
       </div>
     </>

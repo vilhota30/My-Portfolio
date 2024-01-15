@@ -21,7 +21,7 @@ const NavBar = () => {
 
     return (
       <>
-      <div className="nav-container" style={{ display: 'flex', position: 'sticky', zIndex: '100', top: '0'}}>
+      <div className="nav-container" style={{ display: 'flex', position: 'sticky', zIndex: '100', top: '0',}}>
         {/* <div className="logo">
           <HashLink to="/#home_page" className="nav__logo">
             <BsBrightnessHighFill />

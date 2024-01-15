@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
     background: #1c447e;
     padding: 15px 10px;

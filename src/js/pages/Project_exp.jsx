@@ -8,14 +8,16 @@ const MyProjects = () => {
   const [showAllCards, setShowAllCards] = useState(false);
   const visibleCards = myProjectsData.slice(0, 6);
   return (
-    <div>
+    // <div>
+      <>
       <div className="work_page" id="my-work" style={{backgroundColor: 'chocolate', padding: '20px 40px'}} >
         <div className="proj_component">
           <AboutMyProject />
         </div>
-        <div style={{backgroundColor: 'burlywood', paddingTop: '20px', backgroundImage: `url(${pencils})`, backgroundRepeat: "no-repeat", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "center",}}>
-        <h2 style={{ display: 'flex', justifyContent: 'center', color: 'moccasin', fontSize: '20px'}}>My projects</h2>
-        <div className="project_work_page" style={{display: 'flex', flexWrap: 'wrap', gap: '30px', padding: '30px 90px',}}>
+        <div className="project_group" style={{backgroundImage: `url(${pencils})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}} >
+        {/* style={{backgroundColor: 'burlywood', paddingTop: '20px', backgroundImage: `url(${pencils})`, backgroundRepeat: "no-repeat", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "center",}} */}
+        <h2 style={{ display: 'flex', justifyContent: 'center', color: 'moccasin', fontSize: '28px', fontWeight: '700', marginBottom: '20px'}}>My projects</h2>
+        <div className="project_work_page" style={{display: 'flex', flexWrap: 'wrap', gap: '30px'}}>
           {visibleCards.map((e, index) => (
             <div
               className="section"
@@ -33,7 +35,7 @@ const MyProjects = () => {
                 <div className="proj_descriptions">
                   <p>{e.proj_description}</p>
                 </div>
-                <div className="proj_btns">
+                <div className="proj_btns" style={{display: 'flex'}}>
                   <a
                     href={e.proj_code_like}
                     target={e.proj_code_like !== '#' ? '_blank' : ''}
@@ -123,7 +125,8 @@ const MyProjects = () => {
         </div>
         </div>
       </div>
-    </div>
+    {/* </div> */}
+    </>
   );
 };
 

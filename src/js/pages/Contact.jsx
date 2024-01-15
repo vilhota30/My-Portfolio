@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
 
 return (
     <>
-    <section className="contact_page_section" id="contact_page" style={{padding: '50px 40px', backgroundColor: 'burlywood'}}>
+    <section className="contact_page_section" id="contact_page" style={{backgroundColor: 'burlywood',}}>
       <div className="contact_section">
         <div className="contact_container" style={{display: 'flex', justifyContent: 'center', borderRadius: '10px', boxShadow: 'rgba(0, 0, 3, 0.25) 0px 25px 50px -12px'}}>
           <div className="form_container_left" style={{padding: '15px', backgroundColor: 'darksalmon', borderRadius: '10px'}}>
@@ -97,14 +97,14 @@ return (
                 className="user_message_form"
                 method="POST"
                 onSubmit={handleSubmit}
-                style={{display: 'flex', flexDirection: 'column'}}
+                style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}
               >
                 <h3 style={{display: 'flex', marginLeft: 'auto', marginRight: 'auto'}}>
                   Get in <span style={{color: 'white'}}> Touch </span>
                 </h3>
                 <p style={{color: 'brown', fontWeight: '700' }}>We're open for any suggestions</p>
-                <label htmlFor={34567}>Name</label>
                 <div className="name_val">
+                <label htmlFor={34567}>Name</label>
                   <input
                     type="text"
                     name="name"
@@ -117,8 +117,8 @@ return (
                     style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'blanchedalmond', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
                   />
                 </div>
-                <label htmlFor={78902}>Email</label>
                 <div className="username_val">
+                <label htmlFor={78902}>Email</label>
                   <input
                     type="email"
                     name="email"
@@ -131,8 +131,8 @@ return (
                     style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'blanchedalmond', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
                   />
                 </div>
-                <label htmlFor={12347}>Message</label>
                 <div className="user_msg">
+                <label htmlFor={12347}>Message</label>
                   <textarea
                     type="text"
                     name="message"

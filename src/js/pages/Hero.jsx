@@ -17,9 +17,9 @@ function HeroPage () {
  return (
    
     <>
-       <div className="profile-container" id="home_page" style={{ backgroundImage: `url(${mountains})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "bottom", height: '600px' }}>
+       <div className="profile-container" id="home_page" style={{ backgroundImage: `url(${mountains})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "bottom", }}>
         <div className="profile-parent">
-          <div className="profile-details" style={{marginRight: '60px', marginLeft: '40px'}}>
+          <div className="profile-details">
             <div className="profile-details-name">
               <p className="primary-text">
                 Hello, I'M
@@ -28,7 +28,7 @@ function HeroPage () {
             </div>
             <div className="profile-details-role">
             {/* <span className="primary-text"> */}
-            <h1 style={{ display: 'flex', justifyContent: 'center', width: '600px', gap: '6px', color: 'darkblue', }}>
+            <h1 style={{ display: 'flex', width: '600px', gap: '6px', color: 'darkblue', }}>
               I am into
             <span style={{ color: 'black' }}>{text}</span>
            <span style={{color: 'red',}}>
@@ -36,7 +36,8 @@ function HeroPage () {
            </span>
             
             </h1>
-            <span className="profile-role-tagline" style={{color: '#441f86d9', fontWeight: '800', fontSize: '18px', display: 'block', width: '600px',}}>
+            <span className="profile-role-tagline" >
+            {/* style={{color: '#441f86d9', fontWeight: '800', fontSize: '18px', display: 'block', width: '600px',}} */}
                   I make websites that are easy to use, meet the client's needs,
                   and work well even as they grow. I pay close attention to
                   every little thing to make sure they work fast and are
@@ -55,13 +56,8 @@ function HeroPage () {
                 <button className="btn-profile highlighted-btn-profile">Get Resume</button>
               </a>
             </div>
-           {/* </div>  */}
-           {/* <div className="profile-picture"> */}
-            {/* <a href="#about_myself" style={{backgroundImage: `url(${photo})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "8px", backgroundSize: "cover", backgroundPosition: "center"}}></a> */}
-            {/* <div style={{backgroundImage: `url(${photo})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "8px", backgroundSize: "cover", backgroundPosition: "center"}}></div> */}
-          {/* </div> */}
           </div>
-          <div style={{backgroundImage: `url(${photo})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid black", borderRadius: "50%", backgroundSize: "cover", backgroundPosition: "center", marginLeft: '20px', marginRight: '50px', marginTop: '20px', marginBottom: '20px', boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px'}}></div>
+          <div style={{backgroundImage: `url(${photo})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", border: "1px solid darkblue", borderRadius: "50%", backgroundSize: "cover", backgroundPosition: "center", marginLeft: '20px', marginRight: '50px', marginTop: '20px', marginBottom: '20px', boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px'}}></div>
         </div>
        </div> 
     </>
