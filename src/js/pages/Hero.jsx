@@ -52,7 +52,7 @@ function HeroPage () {
               <a href="#contact_page">
                 <button className="btn-profile primary-btn-profile">Hire Me</button>
               </a>
-              <a href="./My-Portfolio/VilhotaAlina.pdf#page=1" download>
+              <a href="../files/CV_VilhotaAlina.pdf" target="_blank" download>
                 <button className="btn-profile highlighted-btn-profile">Get Resume</button>
               </a>
             </div>
