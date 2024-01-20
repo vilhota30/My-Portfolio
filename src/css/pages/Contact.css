@@ -162,6 +162,9 @@
     margin-left: 8px;
     justify-content: flex-start;
   }
+  .user_message_form {
+    background-color: bisque;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -182,6 +185,9 @@
     margin: 0;
     box-shadow: 0px 0px 6px 0px #b1b1b1;
   }
+  .user_message_form {
+    background-color: bisque;
+  }
   /* .contact_page_section {
     width: 900px;
   } */
@@ -191,6 +197,9 @@
     width: 90%;
     margin: 0px;
     padding-bottom: 9px;
+  }
+  .user_message_form {
+    background-color: bisque;
   }
   /* .contact_page_section {
     max-width: 600px;
@@ -205,6 +214,7 @@
   }
   .user_message_form {
     padding: 0px !important;
+    background-color: transparent;
   }
   /* .contact_page_section {
     width: 320px;

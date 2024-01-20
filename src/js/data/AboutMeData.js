@@ -40,7 +40,7 @@ const aboutMeInfo = [
             {
               index: 5,
               data_type: "Email",
-              data_value: "nirodalinagmail.com",
+              data_value: "nirodalina@gmail.com",
               icon_class: "fa-solid fa-envelope",
               ic_color: "#00838F",
               data_icon: BiMailSend,

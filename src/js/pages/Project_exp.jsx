@@ -16,8 +16,8 @@ const MyProjects = () => {
         </div>
         <div className="project_group" style={{backgroundImage: `url(${pencils})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}} >
         {/* style={{backgroundColor: 'burlywood', paddingTop: '20px', backgroundImage: `url(${pencils})`, backgroundRepeat: "no-repeat", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "center",}} */}
-        <h2 style={{ display: 'flex', justifyContent: 'center', color: 'moccasin', fontSize: '28px', fontWeight: '700', marginBottom: '20px'}}>My projects</h2>
-        <div className="project_work_page" style={{display: 'flex', flexWrap: 'wrap', gap: '30px'}}>
+        <h2 style={{ display: 'flex', justifyContent: 'center', color: 'moccasin', fontSize: '30px', fontWeight: '700', marginBottom: '20px'}}>My projects</h2>
+        <div className="project_work_page" style={{display: 'flex', flexWrap: 'wrap', gap: '30px', justifyContent: 'center', marginTop: '14px',}}>
           {visibleCards.map((e, index) => (
             <div
               className="section"
@@ -48,7 +48,7 @@ const MyProjects = () => {
                     target={e.proj_live_link !== '#' ? '_blank' : ''}
                     rel="noreferrer"
                   >
-                    <button style={{backgroundColor: 'lightcoral', color: 'darkred', border: '2px solid coral', borderRadius: '6px', fontSize: '18px', fontWeight: '700'}} className="proj_live">Live Project</button>
+                    <button style={{ border: '2px solid coral', borderRadius: '6px', fontSize: '18px', fontWeight: '700'}} className="proj_live">Live Project</button>
                   </a>
                 </div>
               </div>

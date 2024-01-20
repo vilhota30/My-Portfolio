@@ -50,6 +50,13 @@
     flex-direction: row;
     align-content: center;
     align-items: center;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+  .section:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+  border-color: #000;
 }
   .pcontainer {
     width: 350px;
@@ -100,6 +107,9 @@
     justify-content: center;
     align-content: center;
 }
+  .proj_btns:hover {
+    background-color: orange;
+  }
   
   .proj_code,
   .proj_live {
@@ -117,11 +127,11 @@
     transform: scale(0.6);
 }
  .proj_live:hover {
-    background: #5c6bc0;
+    background-color: #5c6bc0;
     color: #fff;
 }
   .proj_code:hover {
-    background: #ab47bc;
+    background-color: #ab47bc;
     color: #fff;
 }
   .pcontainer img {

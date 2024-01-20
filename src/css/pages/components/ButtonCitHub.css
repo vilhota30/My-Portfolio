@@ -5,7 +5,8 @@
   }
   .bot_git_btn {
     box-shadow: 0px 0px 13px #55198b;
-    color: #fff;
+    color: moccasin;
+    background-color: darkslateblue;
     font-weight: 500;
     line-height: 1.1;
     width: 230px;
@@ -25,13 +26,14 @@
     transform: scale(0.9);
   }
   .bot_git_btn:hover {
-    background: #9c27b0;
+    background: #840f98;
     box-shadow: 0px 0px 13px #251335;
   }
   
   @media screen and (min-width: 1024px) {
     .bot_git_btn {
       box-shadow: #482e87 0px 0px 3px;
+      background-color: #55198b;
     }
   }
   

@@ -4,6 +4,8 @@ import SocialMediaProfileLinks from "js/components/SocialMediaLinks";
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
 import photo from '../images/Photo.jpg';
 import mountains from '../images/mountains.jpg';
+import { BsCardHeading } from "react-icons/bs";
+import { BsBookmarkCheck } from "react-icons/bs";
 
 function HeroPage () {
 
@@ -38,10 +40,7 @@ function HeroPage () {
             </h1>
             <span className="profile-role-tagline" >
             {/* style={{color: '#441f86d9', fontWeight: '800', fontSize: '18px', display: 'block', width: '600px',}} */}
-                  I make websites that are easy to use, meet the client's needs,
-                  and work well even as they grow. I pay close attention to
-                  every little thing to make sure they work fast and are
-                  reliable.
+            I am always responsive to client needs, open to dialogue to better understand and fulfill product requirements. I have a knack for streamlining the workflow effectively, focusing on delivering results that are visibly impactful. My passion lies in developing user-friendly and engaging interfaces that cater to the client's needs while providing a positive user experience for customers.
             </span>
             {/* </span> */}
             <div className="colz" style={{marginTop: '15px', marginBottom: '15px',}}>
@@ -49,11 +48,11 @@ function HeroPage () {
             </div>
             </div>
             <div className="profile-options">
-              <a href="#contact_page">
-                <button className="btn-profile primary-btn-profile">Hire Me</button>
+              <a href="#contact_page" style={{textDecoration: 'none'}}>
+                <button className="btn-profile primary-btn-profile"> <BsBookmarkCheck />  Hire Me</button>
               </a>
-              <a href="./CV.pdf" download="CV_Vilhota_Alina.pdf" >
-                <button className="btn-profile highlighted-btn-profile">Get Resume</button>
+              <a href="./CV.pdf" download="CV_Vilhota_Alina.pdf" style={{textDecoration: 'none'}}>
+                <button className="btn-profile highlighted-btn-profile"> <BsCardHeading />  Get Resume</button>
               </a>
             </div>
           </div>

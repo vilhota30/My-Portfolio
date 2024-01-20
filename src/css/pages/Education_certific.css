@@ -73,6 +73,12 @@
     .container_education {
         width: 300px;
     }
+    .education_text {
+        margin-left: 10px;
+    }
+    .text_group {
+        padding: 20px;
+    }
 
 }
 

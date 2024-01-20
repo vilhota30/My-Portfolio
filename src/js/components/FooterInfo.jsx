@@ -27,10 +27,8 @@ const FooterInfoDetails = () => {
             </div>
             <div className="foot_middle_info" style={{width: '350px', marginRight: '20px', fontWeight: '600', color: 'darkorange'}}>
               <p className="basic_info">
-                Need any help with your projects? contact me at the places
-                mentioned below. I will try to get back to you as fast as I can.
+              Require assistance with your projects? You can contact me using the information provided on the right, and I will make an effort to respond promptly.
               </p>
-              <p className="f_info">Follow me for more such Projects.</p>
             </div>
             <div>
               <GitHubButton

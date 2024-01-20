@@ -1,9 +1,14 @@
 .btn-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     padding: 14px 0;
     width: 160px;
+    font-weight: 600;
     cursor: pointer;
     transition: 0.2s;
+    margin-right: 5px;
     /* outline: none;
     border: none; */
   }
@@ -13,7 +18,7 @@
   }
   
   .primary-btn-profile {
-    border: 2px solid rgb(225, 145, 65);
+    border: 2px solid rgb(219, 115, 12);
     background-color:rgb(225, 145, 65);
     font-size: 12px;
     margin-right: 20px;
@@ -30,17 +35,20 @@
   }
   .primary-btn-profile:hover {
     color: aliceblue;
-    border: 2px solid #3b80ff;
-    background-color: darkblue;
+    border: 2px solid #072e77;
+    background-color: #3d78e5;
   }
   
   .highlighted-btn-profile {
     font-size: 12px;
+    color: black;
+    border: 2px solid blue;
     background-color: #0e55d8;
   }
 
   .highlighted-btn-profile:hover {
     border: 2px solid orangered;
+    color: white;
     background-color: rgb(215, 96, 5);
   }
   
@@ -174,6 +182,10 @@
     .profile-details-role .primary-text {
       font-size: 12px;
 }
+    .profile-options {
+       display: flex;
+       margin-top: 10px;
+}
     .profile-options .btn {
       width: 120px;
       padding: 11px 0;
@@ -196,6 +208,11 @@
     }
     .profile-picture {
       display: none
+    }
+    .profile-options {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
     }
 }
   @media screen and(max-width:910px) {

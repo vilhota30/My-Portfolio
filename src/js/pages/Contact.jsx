@@ -97,10 +97,10 @@ return (
                 className="user_message_form"
                 method="POST"
                 onSubmit={handleSubmit}
-                style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}
+                style={{display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '8px'}}
               >
                 <h3 style={{display: 'flex', marginLeft: 'auto', marginRight: 'auto'}}>
-                  Get in <span style={{color: 'white'}}> Touch </span>
+                  Get in <span style={{color: 'brown'}}> Touch </span>
                 </h3>
                 <p style={{color: 'brown', fontWeight: '700' }}>We're open for any suggestions</p>
                 <div className="name_val">
@@ -114,7 +114,7 @@ return (
                     onChange={handleInputs}
                     autoComplete="off"
                     placeholder="Iruna"
-                    style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'blanchedalmond', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
+                    style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'moccasin', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
                   />
                 </div>
                 <div className="username_val">
@@ -128,7 +128,7 @@ return (
                     onChange={handleInputs}
                     autoComplete="off"
                     placeholder="iruna@gmail.com"
-                    style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'blanchedalmond', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
+                    style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'moccasin', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
                   />
                 </div>
                 <div className="user_msg">
@@ -143,7 +143,7 @@ return (
                     value={userMsg.message}
                     onChange={handleInputs}
                     placeholder="Text"
-                    style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'blanchedalmond', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
+                    style={{border: '2px solid saddlebrown', borderRadius: '8px', background: 'moccasin', width: '240px', fontWeight: '600', fontSize: '16px', color: 'brown', }}
                   ></textarea>
                 </div>
                 <div className="user_send_msg_button">

@@ -1,7 +1,8 @@
 import React from "react";
 import '../../css/pages/About.css';
 import aboutMeInfo from "js/data/AboutMeData";
-import aboutMeImg from '../images/businesswoman.png';
+// import aboutMeImg from '../images/businesswoman.png';
+import women from '../images/women.png';
 import wood from '../images/wood.jpg';
 // import { nanoid } from "nanoid";
 function AboutMe () {
@@ -10,7 +11,7 @@ function AboutMe () {
         <section className="about_me" id="about_myself" style={{ backgroundImage: `url(${wood})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", backgroundSize: "cover", backgroundPosition: "center",}} >
             <div className="about_me_container" > 
                <div className="my_img">
-                 <img id="img" src={aboutMeImg} alt="profile_image" style={{backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", borderRadius: "8px", border: "2px solid black", backgroundSize: "cover", backgroundPosition: "center"}} />
+                 <img id="img" src={women} alt="profile_image" style={{backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "400px", width: "400px", borderRadius: "8px", border: "2px solid bisque", backgroundSize: "cover", backgroundPosition: "center", backgroundColor: 'moccasin'}} />
                </div>
         <div style={{display: 'flex', flexDirection: 'column', backgroundColor: 'darksalmon', borderRadius: '8px'}}>      
         <div className="my_info">
@@ -18,8 +19,9 @@ function AboutMe () {
           📌 About <span style={{color: 'brown'}}>Me</span>
           </h2>
           <p style={{fontSize: '20px', fontWeight: '600', color: 'firebrick', padding: '10px'}}>
-          👋I am a junior React developer from Vynogradov, Ukraine🌎 . I have long been interested in the "magical" development process. I recently completed the Fullstack Developer course at the GoIT school. I fell in love with React.js during my studies.
-           This framework is very powerful and diverse. Currently, I am deepening my skills with React.js and Redux.js by creating pet projects, while learning TypeScript. I have a thirst to learn new things every day, improve myself in the field of development and work for a result that is noticeable🎓. In my spare time, I like to read fiction, watch documentaries and relax in nature.
+          👋"Hello! My name is Alina and I am a junior React developer with a deep interest in web technologies. My expertise includes working with technology stacks such as HTML, CSS, and JavaScript.
+           I'm actively using React.js and Node.js in my projects and I'm looking to develop my skills by exploring new opportunities and practices in this direction.
+           During my time as a React developer, I've already been involved in building web applications, focusing on the front end and user experience. My goal is to become an experienced IT specialist. I am always open to learning new technologies and collaborating with the team to achieve high standards in software development."
           </p>
         </div>
          <div className="personal_info" >

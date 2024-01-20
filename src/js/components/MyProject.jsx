@@ -7,15 +7,10 @@ function AboutMyProject () {
    return (
     <>
       <div className="proj_container_section">
-        <div className="proj_left" style={{marginRight: '50px'}}>
+        <div className="proj_left" style={{marginRight: '50px', marginBottom: '20px'}}>
           <h3>Projects & Experiences</h3>
           <p style={{display: 'flex', width: '500px', fontSize: '20px', fontWeight: '600', color: 'black'}}>
-            You can find all of my projects on my profile on Github. You can
-            view my activities, contributions and code on these projects. Some
-            of these are completed and some are in progress. You can also leave
-            comments on the profile and start a discussion. I am always looking
-            for new projects and Ideas. You can also reach out to me on any of
-            the social media channels mentioned below.
+          You can find all of my projects on my GitHub profile, where you can review my activities, contributions, and code of these projects. Some of them are completed, while others are still in progress. Feel free to leave comments on the profile and initiate discussions. I am always open to new projects and ideas. You can also reach out to me through any of the social media channels mentioned below.
           </p>
            <GitHubButton
             backgroundColor="#512da8"
